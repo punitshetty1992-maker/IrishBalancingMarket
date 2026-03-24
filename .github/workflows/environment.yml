@@ -1,0 +1,21 @@
+name: ibm-forecast
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - statsmodels
+  - seaborn
+  - matplotlib
+  - xgboost
+  - pip:
+      - sklearn-quantile
+      - epftoolbox
+      - tensorflow==2.15.*
+      - keras
+      - scikeras
+      - jupyter
